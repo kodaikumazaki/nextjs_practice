@@ -1,11 +1,11 @@
-// import Seo from "next-seo"
+import Seo from "../components/seo"
 import Layout from "../components/layout"
 import * as style from "../styles/contact.module.scss"
 
 const Contact = () => {
     return (
         <Layout>
-            {/* <Seo title="コンタクト" description="これはコンタクトページです" /> */}
+            <Seo title="コンタクト" description="これはコンタクトページです" />
             <div className={style.wrapper}>
                 <div className={style.container}>
                     <h1>Contact</h1>
